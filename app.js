@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const pgp = require('pg-promise')();
-const db = pgp(process.env.DATABASE_URL || 'postgres://taylorhalsted@localhost:5432/hustlepuffin');
+const db = pgp(process.env.DATABASE_URL || 'postgres://taylorhalsted@localhost:5432/pfaff');
 const mustache = require('mustache-express');
 const methodOverride = require('method-override');
 const bdPars = require('body-parser');
