@@ -1,0 +1,307 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+body.bg {
+  background-color: rgba(255,60,0,0.35)
+}
+
+#header {
+  height: 100px;
+  color: white;
+}
+
+.logo {
+  color: white;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.logo a {
+  color: white;
+}
+
+.top-nav {
+  height: 100px;
+}
+
+.nav {
+  text-align: right;
+  font-size: 30px;
+  margin-top: 33px;
+  margin-right: 25px;
+}
+
+.account {
+  color: white;
+  padding: 3px;
+  background-color: rgba(0,0,0,0.5);
+}
+
+.main {
+  height: 500px;
+}
+
+#cta {
+  height: 100%;
+  font-size: 150px;
+  line-height: 185px;
+  color: black;
+  margin-top: 40px;
+}
+
+#cta span {
+  animation: cycle 10s linear infinite;
+  letter-spacing: -8px;
+}
+
+@keyframes cycle {
+  0% {
+    background-color: rgba(255,60,0,0.5);
+    color: white;
+  } 50% {
+      background-color: rgba(255,255,225,0.7);
+      color: black;
+  } 100% {
+    background-color: rgba(255,60,0,0.5);
+    color: white;
+  }
+}
+
+div#login {
+  margin-top: 150px;
+}
+
+div#login .credentials {
+  height: 100px;
+  width: 400px;
+}
+
+div#login .inputs {
+  font-size: 20px;
+  height: 50px;
+  line-height: 40px;
+  color: white;
+}
+
+div#login input[type=text]:focus {
+  border-bottom: 1px solid #ff3d00;
+  box-shadow: 0 1px 0 0 #ff3d00;
+}
+
+div#login input::placeholder {
+  color: white;
+  font-size: 50px;
+  line-height: 40px;
+}
+
+div#create {
+  margin-top: 0;
+  width: 300px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 25px 20px;
+  position: fixed;
+  right: 36px;
+}
+
+div#create .inputs {
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  height: 40px;
+  line-height: 40px;
+  color: white;
+}
+
+div#create input[type=text]:focus {
+  border-bottom: 1px solid #ff3d00;
+  box-shadow: 0 1px 0 0 #ff3d00;
+}
+
+div#create input::placeholder {
+  color: white;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 40px;
+}
+
+div#create textarea {
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 20px;
+  color: white;
+}
+
+div#create textarea[type=text]:focus {
+  border-bottom: 1px solid #ff3d00;
+  box-shadow: 0 1px 0 0 #ff3d00;
+}
+
+div#create textarea::placeholder {
+  color: white;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  line-height: 95px
+}
+
+div#create h1 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: white;
+  background-color: #ff3d00;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+h1.oops {
+  color: white;
+  font-size: 40px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px 10px;
+}
+
+h2.oops {
+  color: white;
+  font-size: 30px;
+  background-color: rgba(0,0,0,0.5);
+  padding: 20px 10px;
+}
+
+h1.headline {
+  margin: 0 0 10px 20px;
+  color:  black;
+  background-color: rgba(255,255,225,0.7);
+  font-size: 35px;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+h1.headline1 {
+  margin-bottom: 10px;
+  color:  black;
+  background-color: rgba(255,255,225,0.7);
+  font-size: 35px;
+  padding: 3px 10px;
+  display: inline-block;
+}
+
+#showcase h3 {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  margin: 0;
+}
+
+.cards {
+  background-color: rgba(0,0,0,0.5);
+  padding: 10px 10px;
+  margin-bottom: 10px;
+}
+
+.holder .icons {
+  display: inline-block;
+  float: right;
+}
+
+.holder form {
+  display: inline-block;
+}
+
+.holder button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  margin-left: 5px;
+  margin-top: 3px;
+}
+
+.cards a.title_link{
+  font-size: 20px;
+  color: white;
+  background-color: #ff3d00;
+  padding: 3px 10px;
+  display: block;
+}
+
+.cards a.title_link:hover{
+  font-style: italic;
+  animation: cycle 5s linear infinite;
+}
+
+.cards a.title_int{
+  font-size: 20px;
+  color: white;
+  background-color: #ff3d00;
+  padding: 3px 10px;
+  display: block;
+}
+
+.holder {
+  padding: 10px 15px;
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+.holder a {
+  color: white;
+}
+
+.holder a:hover{
+  font-style: italic;
+}
+
+.holder span {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.guesser {
+  cursor: pointer;
+}
+
+.date {
+  font-style: italic;
+  font-size: 10px;
+}
+
+.fullscreen-bg { /* #VidBackground */
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+.fullscreen-bg__video { /* #VidBackground */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: auto;
+  height: auto;
+  opacity: 0.7;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background-color: rgba(255,60,0,0.5)
+}
+
+@media (max-width: 767px) { /* #VidBackground */
+  .fullscreen-bg {
+    background-color: rgba(255,60,0,0.35);
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}
+
+/* Credits */
+/* Video Background logic (#VidBackground) from:
+http://slicejack.com/fullscreen-html5-video-background-css/ */
